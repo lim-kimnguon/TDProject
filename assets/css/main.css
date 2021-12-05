@@ -18,8 +18,9 @@
     width: 22%;
     height: 100%;
     background-color: #fff;
-    margin-top: 50px;
-    
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    border-right: 15px solid rgb(240, 236, 236);
 }
 
 .menu img {
@@ -67,7 +68,7 @@ li a{
     position: relative;
     margin-left: 22.2%;
     padding: 80px;
-    border-left: 15px solid rgb(240, 236, 236);
+    /* border-left: 15px solid rgb(240, 236, 236); */
 }
 
 .header {
@@ -85,4 +86,8 @@ li a{
     margin-bottom: 30px;
     color: white;
     font-size: 20px;
+}
+
+.header h5 {
+    opacity: 0.5;
 }
